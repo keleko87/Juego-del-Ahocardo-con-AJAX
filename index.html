@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="ahorcado.css"/>
+        <script type="text/javascript" src="ahorcado.js"></script>
+    </head>
+    <body>
+        <div>
+            <article>
+                <header>
+                        <h1>AHORCADO</h1>
+                </header>
+                <button onclick="cargarNuevaPartida();">
+                       CARGAR NUEVA PARTIDA
+                </button>
+                <button name="iniPartida" onclick ="activarIniciarPartida();">
+                        INICIA PARTIDA
+                </button>     
+                <div id="imgAhorcado"><img alt='imagen 1' src='1.PNG' /></div>
+                <div id="marcador">
+                    <table>
+                        <tr>
+                            <td>FALLOS</td>
+                            <td id="fallos">0</td>
+                        </tr>
+                    </table>
+                </div>
+                <span id="lineas"></span>
+                <div id="introLetra">
+                    Introduce la letra:
+                <input type="text" id="letra"/>
+                <button onclick="buscarLetra();">
+                        Check Letra
+                </button>
+                </div>
+            </article>
+        </div>
+    </body>
+
+
+</html>

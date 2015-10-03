@@ -1,0 +1,54 @@
+body{
+   width:100%
+}
+
+article{
+    left:30%;
+    position:relative;
+}
+h1{
+    position:relative;
+    left:8%;
+}
+button{
+    font-size:14px;
+    margin:0.2em;
+}
+input{
+    width:20px;
+    heigth:20px;
+}
+table tr td{
+    padding: 0.3em;
+    border:1px solid black;
+    vertical-align:bottom;
+}
+span{
+  //  font-size: 20px;
+}
+
+#imgAhorcado img{
+    margin:0.5em;
+    position:relative;
+  
+}
+#introLetra{
+    margin:1em 0 0 0;
+    position:relative;
+}
+#lineas{
+/*  background-color:#FFD700;
+    border: 1px solid black;*/
+    font-size:25px;
+    font-weight:bold;
+    color:blue;
+    letter-spacing: 1em;
+    padding:0.2em ;
+    position: relative;
+   
+}
+ #marcador{
+    display:inline-block;
+    margin: 0 1em 0 0;
+}
+
